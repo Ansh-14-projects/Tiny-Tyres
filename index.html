@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Tiny Tyres Akurdi - Die-cast cars, Hot Wheels, Mini GT, POP Race, Bburago, RC cars, dioramas and collector accessories in Pimpri-Chinchwad."
+    >
+
+    <meta
+        name="keywords"
+        content="Tiny Tyres, Akurdi, Hot Wheels, diecast cars, Mini GT, POP Race, Bburago, RC cars, toy cars, Pune"
+    >
+
+    <title>Tiny Tyres | Die-Cast & Toy Car Store | Akurdi</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Orbitron:wght@500;600;700;800;900&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="nav-container">
+
+            <a href="#home" class="logo">
+                <span class="logo-wheel">⚙</span>
+                <span>
+                    <strong>TINY</strong>
+                    <small>TYRES</small>
+                </span>
+            </a>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#collections">Collections</a>
+                <a href="#featured">Featured</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <button
+                class="mobile-menu"
+                id="mobileMenu"
+                aria-label="Open navigation menu"
+            >
+                ☰
+            </button>
+
+        </div>
+    </header>
+
+
+    <!-- HERO -->
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-background"></div>
+
+            <div class="hero-content">
+
+                <div class="hero-badge">
+                    🏁 AKURDI • PIMPRI-CHINCHWAD
+                </div>
+
+                <h1>
+                    WHERE
+                    <span>COLLECTORS</span>
+                    MEET
+                </h1>
+
+                <p>
+                    Discover die-cast cars, collector models, RC cars,
+                    dioramas and automotive accessories at Tiny Tyres.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#collections" class="btn btn-primary">
+                        Explore Collection
+                        <span>→</span>
+                    </a>
+
+                    <a href="#contact" class="btn btn-outline">
+                        Visit Our Store
+                    </a>
+
+                </div>
+
+                <div class="hero-stats">
+
+                    <div>
+                        <strong>1:64</strong>
+                        <span>Scale Cars</span>
+                    </div>
+
+                    <div>
+                        <strong>RC</strong>
+                        <span>Remote Cars</span>
+                    </div>
+
+                    <div>
+                        <strong>★</strong>
+                        <span>Collectors</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="hero-car">
+
+                <div class="speed-line line-one"></div>
+                <div class="speed-line line-two"></div>
+                <div class="speed-line line-three"></div>
+
+                <div class="car-visual">
+                    🏎️
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- MARQUEE -->
+        <section class="marquee">
+
+            <div class="marquee-track">
+
+                <span>HOT WHEELS</span>
+                <span>MINI GT</span>
+                <span>POP RACE</span>
+                <span>BBURAGO</span>
+                <span>MAJORETTE</span>
+                <span>STAR RACE</span>
+                <span>RC CARS</span>
+                <span>DIORAMAS</span>
+
+                <span>HOT WHEELS</span>
+                <span>MINI GT</span>
+                <span>POP RACE</span>
+                <span>BBURAGO</span>
+                <span>MAJORETTE</span>
+                <span>STAR RACE</span>
+                <span>RC CARS</span>
+                <span>DIORAMAS</span>
+
+            </div>
+
+        </section>
+
+
+        <!-- COLLECTIONS -->
+        <section class="section" id="collections">
+
+            <div class="section-heading">
+
+                <div>
+                    <span class="eyebrow">EXPLORE</span>
+                    <h2>Our Collections</h2>
+                </div>
+
+                <p>
+                    From pocket-sized racers to detailed collector models,
+                    explore the world of miniature automotive culture.
+                </p>
+
+            </div>
+
+
+            <div class="collection-grid">
+
+                <article class="collection-card collection-large">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1558060370-d644479cb6f7?auto=format&fit=crop&w=1200&q=85"
+                        alt="Toy cars collection"
+                    >
+
+                    <div class="collection-overlay">
+                        <span>01</span>
+                        <h3>Die-Cast Cars</h3>
+                        <p>Models for kids and serious collectors.</p>
+                        <button onclick="filterProducts('diecast')">
+                            View Cars →
+                        </button>
+                    </div>
+
+                </article>
+
+
+                <article class="collection-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1594787318286-3d835c1d207f?auto=format&fit=crop&w=900&q=85"
+                        alt="Toy racing cars"
+                    >
+
+                    <div class="collection-overlay">
+                        <span>02</span>
+                        <h3>Hot Wheels</h3>
+                        <p>Mainlines, special models and more.</p>
+                        <button onclick="filterProducts('hotwheels')">
+                            Explore →
+                        </button>
+                    </div>
+
+                </article>
+
+
+                <article class="collection-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=900&q=85"
+                        alt="RC toy"
+                    >
+
+                    <div class="collection-overlay">
+                        <span>03</span>
+                        <h3>RC Cars</h3>
+                        <p>Remote-controlled fun for racers.</p>
+                        <button onclick="filterProducts('rc')">
+                            Explore →
+                        </button>
+                    </div>
+
+                </article>
+
+
+                <article class="collection-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=900&q=85"
+                        alt="Toy collection"
+                    >
+
+                    <div class="collection-overlay">
+                        <span>04</span>
+                        <h3>Dioramas</h3>
+                        <p>Build an amazing display for your cars.</p>
+                        <button onclick="filterProducts('diorama')">
+                            Explore →
+                        </button>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- FEATURED PRODUCTS -->
+        <section class="section products-section" id="featured">
+
+            <div class="section-heading">
+
+                <div>
+                    <span class="eyebrow">TINY TYRES GARAGE</span>
+                    <h2>Featured Products</h2>
+                </div>
+
+                <p>
+                    A showcase of the types of products collectors can
+                    discover at Tiny Tyres.
+                </p>
+
+            </div>
+
+
+            <!-- FILTERS -->
+            <div class="filter-bar">
+
+                <button class="filter active" data-filter="all">
+                    All
+                </button>
+
+                <button class="filter" data-filter="diecast">
+                    Die-Cast
+                </button>
+
+                <button class="filter" data-filter="hotwheels">
+                    Hot Wheels
+                </button>
+
+                <button class="filter" data-filter="premium">
+                    Premium
+                </button>
+
+                <button class="filter" data-filter="rc">
+                    RC Cars
+                </button>
+
+                <button class="filter" data-filter="diorama">
+                    Diorama
+                </button>
+
+            </div>
+
+
+            <div class="products-grid" id="productsGrid">
+
+                <!-- PRODUCT 1 -->
+                <article class="product-card" data-category="hotwheels diecast">
+
+                    <div class="product-image">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1594787318286-3d835c1d207f?auto=format&fit=crop&w=900&q=85"
+                            alt="Hot Wheels style die-cast car"
+                        >
+
+                        <span class="product-tag">COLLECTOR</span>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <span class="product-category">DIE-CAST</span>
+
+                        <h3>Street Racer</h3>
+
+                        <p>
+                            Compact racing model for collectors and enthusiasts.
+                        </p>
+
+                        <button onclick="askWhatsApp('Street Racer')">
+                            Enquire on WhatsApp
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 2 -->
+                <article class="product-card" data-category="premium diecast">
+
+                    <div class="product-image">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=900&q=85"
+                            alt="Premium sports car"
+                        >
+
+                        <span class="product-tag">PREMIUM</span>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <span class="product-category">PREMIUM DIE-CAST</span>
+
+                        <h3>Supercar Collection</h3>
+
+                        <p>
+                            Detailed miniature supercars for display.
+                        </p>
+
+                        <button onclick="askWhatsApp('Supercar Collection')">
+                            Enquire on WhatsApp
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 3 -->
+                <article class="product-card" data-category="premium diecast">
+
+                    <div class="product-image">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&w=900&q=85"
+                            alt="Classic car"
+                        >
+
+                        <span class="product-tag">CLASSIC</span>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <span class="product-category">COLLECTOR MODEL</span>
+
+                        <h3>Classic Car</h3>
+
+                        <p>
+                            Vintage-inspired model for automotive fans.
+                        </p>
+
+                        <button onclick="askWhatsApp('Classic Car')">
+                            Enquire on WhatsApp
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 4 -->
+                <article class="product-card" data-category="rc">
+
+                    <div class="product-image">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=900&q=85"
+                            alt="Remote controlled toy"
+                        >
+
+                        <span class="product-tag">RC</span>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <span class="product-category">REMOTE CONTROL</span>
+
+                        <h3>RC Racer</h3>
+
+                        <p>
+                            Have fun racing with remote-controlled vehicles.
+                        </p>
+
+                        <button onclick="askWhatsApp('RC Racer')">
+                            Enquire on WhatsApp
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 5 -->
+                <article class="product-card" data-category="hotwheels diecast">
+
+                    <div class="product-image">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1558060370-d644479cb6f7?auto=format&fit=crop&w=900&q=85"
+                            alt="Die-cast toy cars"
+                        >
+
+                        <span class="product-tag">1:64</span>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <span class="product-category">DIE-CAST</span>
+
+                        <h3>Mini Car Collection</h3>
+
+                        <p>
+                            Small-scale cars perfect for collecting.
+                        </p>
+
+                        <button onclick="askWhatsApp('Mini Car Collection')">
+                            Enquire on WhatsApp
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 6 -->
+                <article class="product-card" data-category="diorama">
+
+                    <div class="product-image">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=900&q=85"
+                            alt="Miniature display"
+                        >
+
+                        <span class="product-tag">DISPLAY</span>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <span class="product-category">DIORAMA</span>
+
+                        <h3>Garage Display</h3>
+
+                        <p>
+                            Create a miniature world for your collection.
+                        </p>
+
+                        <button onclick="askWhatsApp('Garage Display')">
+                            Enquire on WhatsApp
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 7 -->
+                <article class="product-card" data-category="premium diecast">
+
+                    <div class="product-image">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=900&q=85"
+                            alt="Sports car model"
+                        >
+
+                        <span class="product-tag">SPORTS</span>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <span class="product-category">COLLECTOR</span>
+
+                        <h3>Performance Car</h3>
+
+                        <p>
+                            A miniature performance machine for display.
+                        </p>
+
+                        <button onclick="askWhatsApp('Performance Car')">
+                            Enquire on WhatsApp
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 8 -->
+                <article class="product-card" data-category="diorama">
+
+                    <div class="product-image">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1560253023-3ec5d502959f?auto=format&fit=crop&w=900&q=85"
+                            alt="Miniature car display"
+                        >
+
+                        <span class="product-tag">GARAGE</span>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <span class="product-category">DIORAMA ACCESSORY</span>
+
+                        <h3>Mini Garage Setup</h3>
+
+                        <p>
+                            Add character to your miniature automotive world.
+                        </p>
+
+                        <button onclick="askWhatsApp('Mini Garage Setup')">
+                            Enquire on WhatsApp
+                        </button>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- BRANDS -->
+        <section class="brands-section">
+
+            <div class="section-heading center">
+
+                <div>
+                    <span class="eyebrow">COLLECTOR FAVOURITES</span>
+                    <h2>Brands & Categories</h2>
+                </div>
+
+            </div>
+
+            <div class="brands-grid">
+
+                <div class="brand-box">HOT WHEELS</div>
+                <div class="brand-box">MINI GT</div>
+                <div class="brand-box">POP RACE</div>
+                <div class="brand-box">BBURAGO</div>
+                <div class="brand-box">MAJORETTE</div>
+                <div class="brand-box">STAR RACE</div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT -->
+        <section class="about-section section" id="about">
+
+            <div class="about-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1200&q=85"
+                    alt="Automotive collection"
+                >
+
+                <div class="about-badge">
+                    <strong>TINY</strong>
+                    <span>TYRES</span>
+                </div>
+
+            </div>
+
+
+            <div class="about-content">
+
+                <span class="eyebrow">ABOUT TINY TYRES</span>
+
+                <h2>
+                    Small Cars.
+                    <span>Big Passion.</span>
+                </h2>
+
+                <p>
+                    Tiny Tyres is an automotive toy and die-cast destination
+                    in Akurdi, Pimpri-Chinchwad, created for people who love
+                    miniature cars and everything automotive.
+                </p>
+
+                <p>
+                    Whether you're looking for a fun gift, your next
+                    1:64-scale addition, a premium model, an RC car or
+                    accessories for your display, visit the store and
+                    explore what's available.
+                </p>
+
+
+                <div class="about-features">
+
+                    <div>
+                        <span>01</span>
+                        <strong>Die-Cast</strong>
+                        <p>Cars & collector models</p>
+                    </div>
+
+                    <div>
+                        <span>02</span>
+                        <strong>RC Cars</strong>
+                        <p>Remote-control fun</p>
+                    </div>
+
+                    <div>
+                        <span>03</span>
+                        <strong>Dioramas</strong>
+                        <p>Display your collection</p>
+                    </div>
+
+                    <div>
+                        <span>04</span>
+                        <strong>Accessories</strong>
+                        <p>Automotive-themed items</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- LOCATION -->
+        <section class="location-section" id="contact">
+
+            <div class="location-content">
+
+                <span class="eyebrow">COME VISIT</span>
+
+                <h2>
+                    Find Tiny Tyres
+                    <span>in Akurdi.</span>
+                </h2>
+
+                <p>
+                    Visit the store and discover the current collection
+                    in person.
+                </p>
+
+
+                <div class="address-card">
+
+                    <div class="address-icon">📍</div>
+
+                    <div>
+
+                        <strong>Store Address</strong>
+
+                        <p>
+                            Narayan, Kalbhor Building, 2,<br>
+                            Akurdi Chikhali Rd,<br>
+                            Opposite Sai Hospital,<br>
+                            Near Hanuman Temple,<br>
+                            Akurdi Gaothan, Dattawadi,<br>
+                            Akurdi, Pimpri-Chinchwad,<br>
+                            Maharashtra 411035
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-actions">
+
+                    <a
+                        class="contact-button map-button"
+                        href="https://www.google.com/maps/search/?api=1&query=Tiny+Tyres+Akurdi+Pimpri+Chinchwad"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        📍 Open Google Maps
+                    </a>
+
+
+                    <button
+                        class="contact-button whatsapp-button"
+                        onclick="openWhatsApp()"
+                    >
+                        💬 WhatsApp Us
+                    </button>
+
+                </div>
+
+                <p class="phone-note">
+                    WhatsApp number can be configured in
+                    <strong>script.js</strong>.
+                </p>
+
+            </div>
+
+
+            <div class="map-container">
+
+                <iframe
+                    src="https://www.google.com/maps?q=Narayan%20Kalbhor%20Building%20Akurdi%20Pimpri%20Chinchwad%20411035&output=embed"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Tiny Tyres location map"
+                ></iframe>
+
+            </div>
+
+        </section>
+
+
+        <!-- CTA -->
+        <section class="final-cta">
+
+            <div>
+
+                <span class="eyebrow">READY TO RACE?</span>
+
+                <h2>
+                    Your next
+                    <span>miniature machine</span>
+                    is waiting.
+                </h2>
+
+                <p>
+                    Visit Tiny Tyres in Akurdi and explore the collection.
+                </p>
+
+            </div>
+
+            <a href="#contact" class="btn btn-primary">
+                Get Directions →
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-main">
+
+            <div class="footer-brand">
+
+                <a href="#home" class="logo">
+
+                    <span class="logo-wheel">⚙</span>
+
+                    <span>
+                        <strong>TINY</strong>
+                        <small>TYRES</small>
+                    </span>
+
+                </a>
+
+                <p>
+                    Die-cast cars, collector models,
+                    RC cars and automotive accessories
+                    in Akurdi.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h4>Explore</h4>
+
+                <a href="#collections">Collections</a>
+                <a href="#featured">Featured</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h4>Location</h4>
+
+                <p>
+                    Akurdi Gaothan,<br>
+                    Dattawadi, Akurdi,<br>
+                    Pimpri-Chinchwad,<br>
+                    Maharashtra 411035
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h4>Connect</h4>
+
+                <button onclick="openWhatsApp()">
+                    WhatsApp
+                </button>
+
+                <a
+                    href="https://www.google.com/maps/search/?api=1&query=Tiny+Tyres+Akurdi"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Google Maps
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <span>
+                © <span id="year"></span> Tiny Tyres. All rights reserved.
+            </span>
+
+            <span>
+                Built for car lovers 🏎️
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <!-- BACK TO TOP -->
+    <button id="backToTop" class="back-to-top">
+        ↑
+    </button>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
